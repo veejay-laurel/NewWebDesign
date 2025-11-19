@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website</title>
+  <link rel="stylesheet" href="new.css"/>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <!-- Left Logo (Placeholder: Graduation Cap Emoji) -->
+        <img src="olivarez-college-tagaytay-logo.png"  alt="Olivarez College Tagaytay Logo" class="header-logo" />
+        
+        
+        <!-- Title -->
+        <div>
+          <h1>Student Hub</h1>
+          <p>Access your class schedule, announcements, and calendar in one place.</p>
+        </div>
+        
+        <!-- Right Logo (Placeholder: Book Emoji) -->
+        <img src="download-removebg-preview.png"  alt="ssg Logo" class="header-logo" />
+      </div>
+      
+      <nav aria-label="Main">
+        <ul class="nav">
+          <li><a href="#schedules">Schedule</a></li>
+          <li><a href="#announcements">Announcements</a></li>
+          <li><a href="#calendar">Calendar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- Schedules Section -->
+    <section id="schedules" class="card">
+      <div class="card-header">
+        <h2>Your Class Schedule</h2>
+      </div>
+
+      <section aria-label="Weekly schedule" class="schedule-glass card" id="schedule-section">
+        <div class="schedule-header">
+          <input type="search" id="course-search" placeholder="Search course..." aria-label="Search courses" />
+        </div>
+
+        <!-- NEW WRAPPER FOR HORIZONTAL SCROLLING ON MOBILE -->
+        <div class="schedule-scroll-wrapper">
+          <!-- ARIA grid: remove explicit time header; days on top, days on left as labels -->
+          <div role="grid" aria-label="Weekly schedule grid" class="grid-schedule" id="schedule-grid">
+            <!-- header row: empty top-left corner + days -->
+            <div role="row" class="grid-row header">
+              <div role="gridcell" class="cell corner"></div>
+              <div role="columnheader" class="cell day-header">Monday</div>
+              <div role="columnheader" class="cell day-header">Tuesday</div>
+              <div role="columnheader" class="cell day-header">Wednesday</div>
+              <div role="columnheader" class="cell day-header">Thursday</div>
+              <div role="columnheader" class="cell day-header">Friday</div>
+              <div role="columnheader" class="cell day-header">Saturday</div>
+              <div role="columnheader" class="cell day-header">Sunday</div>
+            </div>
+            <!-- Dynamic rows will be rendered here by JavaScript -->
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Announcements Section -->
+    <section id="announcements" class="card">
+      <div class="card-header">
+        <h2>Latest Announcements</h2>
+      </div>
+      <div class="card-body" aria-live="polite">
+        <div id="announcement-list" class="announcements"></div>
+      </div>
+    </section>
+
+    <!-- Calendar Section -->
+    <section id="calendar" class="card">
+      <div class="card-header">
+        <h2>Important Dates Calendar</h2>
+      </div>
+
+      <div class="card-body calendar-controls" aria-label="Calendar navigation">
+        <button id="prev-month" class="icon-btn" title="Previous month" aria-label="Previous month">&lt;</button>
+        <span id="current-month-year" class="month-label"></span>
+        <button id="next-month" class="icon-btn" title="Next month" aria-label="Next month">&gt;</button>
+      </div>
+
+      <div class="calendar-grid" aria-label="Month days">
+        <div class="weekdays">
+          <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+        </div>
+        <div id="calendar-grid" class="calendar-days"></div>
+      </div>
+
+      <div id="calendar-event-modal" class="modal hidden" role="dialog" aria-modal="true" aria-label="Event details">
+        <div class="modal-content">
+          <button id="close-modal" class="modal-close" aria-label="Close">×</button>
+          <h4 id="modal-date" class="modal-title"></h4>
+          <p id="modal-event" class="modal-text"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; School Website 2025-2026</p>
+    </div>
+  </footer>
+
+  <script src="new.js"></script>
+</body>
+</html>
