@@ -36,8 +36,8 @@ const officeData = {
 
       <h3>Student Organization Activities</h3>
       <div class="announcements">
-        <div class="item"><strong>Club Registration</strong><div class="text">Club fair starts next Monday at the Gymnasium.</div></div>
-        <div class="item"><strong>Officer Meeting</strong><div class="text">All organization presidents must attend the meeting on Friday, 3PM.</div></div>
+        <div class="item"><strong>Club Registration</strong><div class="text">Exam week.</div></div>
+        <div class="item"><strong>Officer Meeting</strong><div class="text">Exam.</div></div>
       </div>
     `
   },
@@ -81,7 +81,7 @@ const officeData = {
     content: `
       <h3>Tuition & Fees</h3>
       <div class="item box-accounting">
-        <strong>Midterm Exam Permits</strong><br>
+        <strong>Prelim Exam Permits</strong><br>
         Please settle your balances to receive your examination permit.
       </div>
       <br>
@@ -92,11 +92,74 @@ const officeData = {
         <li>GCash</li>
       </ul>
       
-      <!-- IMAGE EXAMPLE 4: QR Code at bottom -->
-      <!-- <div style="text-align:center; margin-top:20px;">
+      
+      <div style="text-align:center; margin-top:20px;">
            <img src="gcash-qr.png" alt="GCash QR" style="width:150px; border-radius:8px;">
            <p><small>Scan to Pay</small></p>
-      </div> -->
+
+           <hr style="margin: 40px 0;"> <div style="text-align:center;">
+            <img src="/NewWebDesign/pics/Accounting/Beed.jpg" 
+                 alt="Bachelor in Elementary Education Fee Schedule SY 2025-2026" 
+                 style="width:150%; max-width: 650px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p><small>School Fees SY 2025-2026 (BEEd)</small></p>
+        
+
+           <hr style="margin: 40px 0;"> <div style="text-align:center;">
+            <img src="/NewWebDesign/pics/Accounting/Nursing.jpg" 
+                 alt="Bachelor of Science in NUrsing Fee Schedule SY 2025-2026" 
+                 style="width:150%; max-width: 650px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p><small>School Fees SY 2025-2026 (Nursing)</small></p>
+
+            <hr style="margin: 40px 0;"> <div style="text-align:center;">
+            <img src="/NewWebDesign/pics/Accounting/BSPSYCH.jpg" 
+                 alt="Bachelor of Science in Psychology SY 2025-2026" 
+                 style="width:150%; max-width: 650px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p><small>School Fees SY 2025-2026 (BSPSYCH)</small></p>
+
+
+           <hr style="margin: 40px 0;"> <div style="text-align:center;">
+            <img src="/NewWebDesign/pics/Accounting/BSBA.jpg" 
+                 alt="Bachelor of Science in Business Administration Major in Marketing Management SY 2025-2026" 
+                 style="width:150%; max-width: 650px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p><small>School Fees SY 2025-2026 (BSBA)</small></p>
+
+            <hr style="margin: 40px 0;"> <div style="text-align:center;">
+            <img src="/NewWebDesign/pics/Accounting/BSA-IS.jpg" 
+                 alt="Bachelor of Science in Accounting Information Systems SY 2025-2026" 
+                 style="width:150%; max-width: 650px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p><small>School Fees SY 2025-2026 (BSA-IS)</small></p>
+
+            <hr style="margin: 40px 0;"> <div style="text-align:center;">
+            <img src="/NewWebDesign/pics/Accounting/BSA.jpg" 
+                 alt="Bachelor of Science in Accountancy SY 2025-2026" 
+                 style="width:150%; max-width: 650px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p><small>School Fees SY 2025-2026 (BSA)</small></p>
+
+            <hr style="margin: 40px 0;"> <div style="text-align:center;">
+            <img src="/NewWebDesign/pics/Accounting/BSCRIM.jpg" 
+                 alt="Bachelor of Science in Criminology SY 2025-2026" 
+                 style="width:150%; max-width: 650px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p><small>School Fees SY 2025-2026 (BSCRIM)</small></p>
+
+            <hr style="margin: 40px 0;"> <div style="text-align:center;">
+            <img src="/NewWebDesign/pics/Accounting/BSHM.jpg" 
+                 alt="Bachelor of Science in Hospitality Management SY 2025-2026" 
+                 style="width:150%; max-width: 650px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p><small>School Fees SY 2025-2026 (BSHM)</small></p>
+
+            <hr style="margin: 40px 0;"> <div style="text-align:center;">
+            <img src="/NewWebDesign/pics/Accounting/BSTM.jpg" 
+                 alt="Bachelor of Science in Tourism Management SY 2025-2026" 
+                 style="width:150%; max-width: 650px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p><small>School Fees SY 2025-2026 (BSTM)</small></p>
+
+            <hr style="margin: 40px 0;"> <div style="text-align:center;">
+            <img src="/NewWebDesign/pics/Accounting/BSIT.jpg" 
+                 alt="Bachelor of Science in Information Technology SY 2025-2026" 
+                 style="width:150%; max-width: 650px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p><small>School Fees SY 2025-2026 (BSIT)</small></p>
+
+      </div>
     `
   }
 };

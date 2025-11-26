@@ -19,7 +19,6 @@
 /* Set the background image to the body/html */
 html { 
   background-color: #524242;
-  background-image: none;
   background-size: cover; 
   background-attachment: fixed; 
   background-position: center center;
@@ -32,7 +31,7 @@ body {
   color: var(--text); /* Default body text color is WHITE */
   min-height: 100vh;
   /* (1) DITO NILAGAY ANG MAIN BACKGROUND IMAGE */
-  background-image: url('fccee3de-33b8-40b8-bbeb-3dc1b7e5259a.jpg');
+  background-image: url('/NewWebDesign/pics/fccee3de-33b8-40b8-bbeb-3dc1b7e5259a.jpg');
   background-size: cover; 
   background-attachment: fixed; /* Hindi gumagalaw ang background pag nag-scroll */
   background-position: center center;
