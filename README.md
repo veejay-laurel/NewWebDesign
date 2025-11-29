@@ -33,4 +33,5 @@ The Olivarez College Tagaytay Student Hub is designed as an all-in-one online pl
   ![Olivarez College Tagaytay Header](pics/MD/Calendar.png)
 
 ---
-
+## **We Are Group 1**
+![Group1](pics/MD/kweenyasmine_group1.png)
